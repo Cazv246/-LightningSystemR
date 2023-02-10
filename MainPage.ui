@@ -26,7 +26,8 @@
    <string>Dialog</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(31, 33, 40);</string>
+   <string notr="true">
+background-color: rgb(255, 255, 255);</string>
   </property>
   <widget class="QFrame" name="menuLateral">
    <property name="geometry">
@@ -53,7 +54,9 @@
     <enum>Qt::LeftToRight</enum>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(36, 39, 49);</string>
+    <string notr="true">background-color: rgb(145, 0, 72);
+
+</string>
    </property>
    <property name="frameShape">
     <enum>QFrame::StyledPanel</enum>
@@ -85,24 +88,30 @@
     <property name="font">
      <font>
       <family>Arial</family>
-      <pointsize>11</pointsize>
-      <weight>50</weight>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
       <italic>false</italic>
-      <bold>false</bold>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton{
-background-color: rgb(36, 39, 49);
+background-color: rgb(145, 0, 72);
 border-top-left-radius: 15px;
 border-bottom-left-radius: 15px;
-	color: rgb(128, 129, 145);
-	
+	color: rgb(255, 255, 255);
+
 }
 
 QPushButton:hover:!pressed{
-background-color: rgb(31, 33, 40);
-color: rgb(255, 255, 255);
+
+	background-color: rgb(208, 163, 47);
+	color: rgb(145, 0, 72);
+}
+
+QPushButton:pressed
+{
+background-color: rgb(31, 33, 40);     
 }</string>
     </property>
     <property name="text">
@@ -139,24 +148,30 @@ color: rgb(255, 255, 255);
     <property name="font">
      <font>
       <family>Arial</family>
-      <pointsize>11</pointsize>
-      <weight>50</weight>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
       <italic>false</italic>
-      <bold>false</bold>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton{
-background-color: rgb(36, 39, 49);
+background-color: rgb(145, 0, 72);
 border-top-left-radius: 15px;
 border-bottom-left-radius: 15px;
-	color: rgb(128, 129, 145);
-	
+	color: rgb(255, 255, 255);
+
 }
 
 QPushButton:hover:!pressed{
-background-color: rgb(31, 33, 40);
-color: rgb(255, 255, 255);
+
+	background-color: rgb(208, 163, 47);
+	color: rgb(145, 0, 72);
+}
+
+QPushButton:pressed
+{
+background-color: rgb(31, 33, 40);     
 }</string>
     </property>
     <property name="text">
@@ -193,24 +208,30 @@ color: rgb(255, 255, 255);
     <property name="font">
      <font>
       <family>Arial</family>
-      <pointsize>11</pointsize>
-      <weight>50</weight>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
       <italic>false</italic>
-      <bold>false</bold>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton{
-background-color: rgb(36, 39, 49);
+background-color: rgb(145, 0, 72);
 border-top-left-radius: 15px;
 border-bottom-left-radius: 15px;
-	color: rgb(128, 129, 145);
-	
+	color: rgb(255, 255, 255);
+
 }
 
 QPushButton:hover:!pressed{
-background-color: rgb(31, 33, 40);
-color: rgb(255, 255, 255);
+
+	background-color: rgb(208, 163, 47);
+	color: rgb(145, 0, 72);
+}
+
+QPushButton:pressed
+{
+background-color: rgb(31, 33, 40);     
 }</string>
     </property>
     <property name="text">
@@ -247,24 +268,30 @@ color: rgb(255, 255, 255);
     <property name="font">
      <font>
       <family>Arial</family>
-      <pointsize>11</pointsize>
-      <weight>50</weight>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
       <italic>false</italic>
-      <bold>false</bold>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton{
-background-color: rgb(36, 39, 49);
+background-color: rgb(145, 0, 72);
 border-top-left-radius: 15px;
 border-bottom-left-radius: 15px;
-	color: rgb(128, 129, 145);
-	
+	color: rgb(255, 255, 255);
+
 }
 
 QPushButton:hover:!pressed{
-background-color: rgb(31, 33, 40);
-color: rgb(255, 255, 255);
+
+	background-color: rgb(208, 163, 47);
+	color: rgb(145, 0, 72);
+}
+
+QPushButton:pressed
+{
+background-color: rgb(31, 33, 40);     
 }</string>
     </property>
     <property name="text">
@@ -301,24 +328,25 @@ color: rgb(255, 255, 255);
     <property name="font">
      <font>
       <family>Arial</family>
-      <pointsize>11</pointsize>
-      <weight>50</weight>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
       <italic>false</italic>
-      <bold>false</bold>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton{
-background-color: rgb(36, 39, 49);
+background-color: rgb(145, 0, 72);
 border-top-left-radius: 15px;
 border-bottom-left-radius: 15px;
-color: rgb(128, 129, 145);
+	color: rgb(255, 255, 255);
 
 }
 
 QPushButton:hover:!pressed{
-background-color: rgb(31, 33, 40);
-color: rgb(255, 255, 255);
+
+	background-color: rgb(208, 163, 47);
+	color: rgb(145, 0, 72);
 }
 
 QPushButton:pressed
@@ -360,24 +388,30 @@ background-color: rgb(31, 33, 40);
     <property name="font">
      <font>
       <family>Arial</family>
-      <pointsize>11</pointsize>
-      <weight>50</weight>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
       <italic>false</italic>
-      <bold>false</bold>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton{
-background-color: rgb(36, 39, 49);
+background-color: rgb(145, 0, 72);
 border-top-left-radius: 15px;
 border-bottom-left-radius: 15px;
-	color: rgb(128, 129, 145);
-	
+	color: rgb(255, 255, 255);
+
 }
 
 QPushButton:hover:!pressed{
-background-color: rgb(31, 33, 40);
-color: rgb(255, 255, 255);
+
+	background-color: rgb(208, 163, 47);
+	color: rgb(145, 0, 72);
+}
+
+QPushButton:pressed
+{
+background-color: rgb(31, 33, 40);     
 }</string>
     </property>
     <property name="text">
@@ -388,6 +422,19 @@ color: rgb(255, 255, 255);
       <width>30</width>
       <height>30</height>
      </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnCerrar">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>20</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SALIR</string>
     </property>
    </widget>
   </widget>
@@ -409,13 +456,13 @@ color: rgb(255, 255, 255);
    <property name="font">
     <font>
      <family>Arial</family>
-     <pointsize>12</pointsize>
+     <pointsize>16</pointsize>
      <weight>75</weight>
      <bold>true</bold>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: rgb(255, 255, 255);</string>
+    <string notr="true">color: rgb(145, 0, 72);</string>
    </property>
    <property name="text">
     <string>UNIVERSIDAD INTERNACIONAL DEL ECUADOR</string>
@@ -462,7 +509,7 @@ color: rgb(255, 255, 255);
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(36, 39, 49);
+      <string notr="true">background-color: rgb(145, 0, 72);
 border-radius: 15px;</string>
      </property>
      <property name="frameShape">
